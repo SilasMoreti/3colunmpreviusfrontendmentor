@@ -1,0 +1,46 @@
+@media screen and (min-width: 200px) and (max-width:400px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .content {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 400px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        margin: 0 20px 0 20px;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .attribution {
+        margin-top: 50px
+    }
+}
